@@ -9,6 +9,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
@@ -36,14 +43,14 @@
         </div>
       </header>
       <main>
-        <div class="container">
-          <div class="vr_wrapper">
+        <section class="container">
+          <article class="vr__wrapper">
             <img
-              class="vr"
+              class="vr__image"
               src="./images/desktop/image-interactive.jpg"
               alt=""
             />
-            <div>
+            <article class="vr__text">
               <h2>THE LEADER IN INTERACTIVE VR</h2>
               <p>
                 Founded in 2011, Loopstudios has been producing world-class
@@ -51,10 +58,41 @@
                 the globe. Our award-winning creations have transformed
                 businesses through digital experiences that bind to their brand.
               </p>
+            </article>
+          </article>
+        </section>
+        <section class="container">
+          <section class="grid__wrapper">
+            <article class="grid__title">
+              <h2>OUR CREATIONS</h2>
+              <button>SEE ALL</button>
+            </article>
+            <article class="grid__gallery">
+              <span class="grid1 grid"><a>deep earth</a></span>
+              <span class="grid2 grid"><a>night arcade</a></span>
+              <span class="grid3 grid"><a>soccer team vr</a></span>
+              <span class="grid4 grid"><a>the grid</a></span>
+              <span class="grid5 grid"><a>from up above vr</a></span>
+              <span class="grid6 grid"><a>pocket borelis</a></span>
+              <span class="grid7 grid"><a>the curiosity</a></span>
+              <span class="grid8 grid"><a>make it fisheye</a></span>
+            </article>
+          </section>
+        </section>
+      </main>
+      <footer>
+        <section class="container">
+          <div class="footer__social">
+            <img class="footer-logo" src="./images/logo.svg" alt="" />
+            <div class="icons">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
-        </div>
-      </main>
+        </section>
+      </footer>
     </div>
   </body>
 </html>

@@ -27,7 +27,7 @@ body {
 body {
   display: flex;
   justify-content: center;
-  font-size: 15px;
+  font-size: 1rem;
   font-family: var(--Josefin);
 }
 
@@ -43,15 +43,13 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1120px;
-  display: flex;
-  align-items: center;
 }
 
 header {
   background-image: url("/images/desktop/image-hero.jpg");
   background-repeat: no-repeat;
   object-fit: fill;
-  height: 90vh;
+  min-height: 100vh;
 }
 
 nav {
@@ -64,7 +62,7 @@ nav {
 
 .logo {
   width: 100%;
-  max-width: 200px;
+  max-width: 80%;
 }
 
 ul {
@@ -81,20 +79,20 @@ li {
 
 .hero__wrapper {
   width: 100%;
-  height: 65vh;
+  min-height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-shrink: 2;
 }
 
 .hero__box {
   width: 100%;
-  max-width: 650px;
+  max-width: 56%;
   color: var(--White);
   font-family: var(--Josefin);
   padding: 1.8rem 2rem 1.8rem 2rem;
-  border: 2px solid var(--White);
-  overflow-wrap: break-word;
+  outline: 2px solid var(--White);
 }
 
 h1 {
@@ -105,4 +103,129 @@ h1 {
 
 .vr__wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.vr__image {
+  max-width: 70%;
+}
+
+.vr__text {
+  height: auto;
+  width: 100%;
+  padding: 4rem 2.5rem 4rem 4rem;
+  margin-left: -9rem;
+  margin-bottom: -4rem;
+  align-self: flex-end;
+  background-color: var(--White);
+  z-index: 10;
+}
+
+h2 {
+  letter-spacing: 0.2rem;
+  color: var(--VeryDarkGray);
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+p {
+  color: var(--DarkGray);
+  line-height: 1.4em;
+}
+
+.grid__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.grid__title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+button {
+  text-align: center;
+  font-family: var(--Josefin);
+  font-size: 0.8rem;
+  padding: 0.4rem 2rem;
+  color: var(--Black);
+  background-color: var(--White);
+  outline: 0.5px (--VeryDarkGray);
+}
+
+.grid__gallery {
+  height: 125vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+.grid {
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  position: relative;
+  filter: brightness(90%);
+  color: var(--White);
+}
+
+.grid:hover {
+  mix-blend-mode: overlay;
+  transition: all 0.2s ease-in-out;
+  color: var(--Black);
+  font-weight: bolder;
+}
+
+.grid1 {
+  background-image: url("./images/desktop/image-deep-earth.jpg");
+}
+.grid2 {
+  background-image: url("./images/desktop/image-night-arcade.jpg");
+}
+.grid3 {
+  background-image: url("./images/desktop/image-soccer-team.jpg");
+}
+.grid4 {
+  background-image: url("./images/desktop/image-grid.jpg");
+}
+.grid5 {
+  background-image: url("./images/desktop/image-from-above.jpg");
+}
+.grid6 {
+  background-image: url("./images/desktop/image-pocket-borealis.jpg");
+}
+.grid7 {
+  background-image: url("./images/desktop/image-curiosity.jpg");
+}
+.grid8 {
+  background-image: url("./images/desktop/image-fisheye.jpg");
+}
+
+span a {
+  width: 60%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 3rem;
+  padding-left: 2.5rem;
+}
+.grid5 a {
+  width: 65%;
+}
+
+footer {
+  background-color: var(--Black);
 }
