@@ -28,13 +28,38 @@
               <picture>
                 <img class="logo" src="./images/logo.svg" alt="logo" />
               </picture>
-              <ul>
-                <li>About</li>
-                <li>Careers</li>
-                <li>Events</li>
-                <li>Products</li>
-                <li>Support</li>
+              <ul class="header__nav">
+                <li><a class="cool-link">About</a></li>
+                <li><a class="cool-link">Careers</a></li>
+                <li><a class="cool-link">Events</a></li>
+                <li><a class="cool-link">Products</a></li>
+                <li><a class="cool-link">Support</a></li>
               </ul>
+              <img
+                id="open"
+                onclick="openNav()"
+                class="menu_icon"
+                src="./images/icon-hamburger.svg"
+                alt="menu"
+              />
+              <div id="sidemenu" class="sidebar">
+                <div class="side_logo">
+                  <img
+                    id="close"
+                    onclick="closeNav()"
+                    src="./images/icon-close.svg"
+                    alt="close-menu"
+                  />
+                  <img class="menu_logo" src="./images/logo.svg" alt="" />
+                </div>
+                <span>
+                  <a href="#">About</a>
+                  <a href="#">Careers</a>
+                  <a href="#">Events</a>
+                  <a href="#">Products</a>
+                  <a href="#">Support</a>
+                </span>
+              </div>
             </nav>
             <div class="hero__box">
               <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
@@ -65,34 +90,76 @@
           <section class="grid__wrapper">
             <article class="grid__title">
               <h2>OUR CREATIONS</h2>
-              <button>SEE ALL</button>
+              <button class="dt" type="button">SEE ALL</button>
             </article>
             <article class="grid__gallery">
-              <span class="grid1 grid"><a>deep earth</a></span>
-              <span class="grid2 grid"><a>night arcade</a></span>
-              <span class="grid3 grid"><a>soccer team vr</a></span>
-              <span class="grid4 grid"><a>the grid</a></span>
-              <span class="grid5 grid"><a>from up above vr</a></span>
-              <span class="grid6 grid"><a>pocket borelis</a></span>
-              <span class="grid7 grid"><a>the curiosity</a></span>
-              <span class="grid8 grid"><a>make it fisheye</a></span>
+              <div class="grid1 grid"><a>deep earth</a></div>
+              <div class="grid2 grid"><a>night arcade</a></div>
+              <div class="grid3 grid"><a>soccer team vr</a></div>
+              <div class="grid4 grid"><a>the grid</a></div>
+              <div class="grid5 grid"><a>from up above vr</a></div>
+              <div class="grid6 grid"><a>pocket borelis</a></div>
+              <div class="grid7 grid"><a>the curiosity</a></div>
+              <div class="grid8 grid"><a>make it fisheye</a></div>
             </article>
           </section>
+          <button class="mb" type="button">SEE ALL</button>
         </section>
       </main>
       <footer>
-        <section class="container">
+        <section class="container desktop">
           <div class="footer__social">
             <img class="footer-logo" src="./images/logo.svg" alt="" />
             <div class="icons">
-              <i class="fa-brands fa-square-facebook"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-pinterest"></i>
-              <i class="fa-brands fa-instagram"></i>
+              <i class="cool-link fa-brands fa-square-facebook"></i>
+              <i class="cool-link fa-brands fa-twitter"></i>
+              <i class="cool-link fa-brands fa-pinterest"></i>
+              <i class="cool-link fa-brands fa-instagram"></i>
             </div>
+          </div>
+          <div class="footer__nav">
+            <ul class="nav">
+              <li><a class="cool-link">About</a></li>
+              <li><a class="cool-link">Careers</a></li>
+              <li><a class="cool-link">Events</a></li>
+              <li><a class="cool-link">Products</a></li>
+              <li><a class="cool-link">Support</a></li>
+            </ul>
+            <span>© 2021 Loopstudios. All rights reserved.</span>
+          </div>
+        </section>
+        <section class="container mobile">
+          <div class="footer__social">
+            <img class="footer-logo" src="./images/logo.svg" alt="" />
+            <ul class="nav">
+              <li><a class="cool-link">About</a></li>
+              <li><a class="cool-link">Careers</a></li>
+              <li><a class="cool-link">Events</a></li>
+              <li><a class="cool-link">Products</a></li>
+              <li><a class="cool-link">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <div class="icons">
+              <i class="cool-link fa-brands fa-square-facebook"></i>
+              <i class="cool-link fa-brands fa-twitter"></i>
+              <i class="cool-link fa-brands fa-pinterest"></i>
+              <i class="cool-link fa-brands fa-instagram"></i>
+            </div>
+
+            <span>© 2021 Loopstudios. All rights reserved.</span>
           </div>
         </section>
       </footer>
     </div>
+    <script>
+      function openNav() {
+        document.getElementById("sidemenu").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("sidemenu").style.width = "0";
+      }
+    </script>
   </body>
 </html>
