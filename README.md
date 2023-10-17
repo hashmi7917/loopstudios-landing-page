@@ -28,10 +28,10 @@ Users should be able to:
 ### Screenshot
 
 #Desktop
-![Screenshot 2023-10-17 at 11 03 09 AM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/f3e5f8f7-fd19-4ed1-bf74-d3b5febacaa8)
+![Screenshot 2023-10-17 at 12 25 35 PM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/026edba6-e9f1-4039-95bd-9727eb52ecb6)
 
 #Mobile
-![Screenshot 2023-10-17 at 11 03 40 AM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/385ae0ed-9586-4556-a778-ef1150323930)
+![Screenshot 2023-10-17 at 12 28 14 PM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/78273c49-dd2f-4908-88b5-c35a60dab7e3)
 
 ### Links
 

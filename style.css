@@ -476,6 +476,9 @@ button {
   .header__nav {
     display: none;
   }
+  header {
+    background-color: initial;
+  }
 }
 
 @media (max-width: 860px) {
