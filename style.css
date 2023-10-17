@@ -50,10 +50,11 @@ body {
 
 header {
   width: 100%;
-  background-image: url("/images/desktop/image-hero.jpg");
+  background-blend-mode: multiply;
+  background-image: url(/images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
-  object-fit: contain;
   padding-bottom: 12rem;
+  background-color: #8d07a1;
 }
 
 nav {
@@ -131,7 +132,7 @@ nav {
 
 .hero__wrapper {
   width: 100%;
-  min-height: 65vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
