@@ -28,7 +28,7 @@ Users should be able to:
 ### Screenshot
 
 #Desktop
-![Screenshot 2023-10-17 at 12 25 35 PM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/026edba6-e9f1-4039-95bd-9727eb52ecb6)
+![Screenshot 2023-10-17 at 12 35 55 PM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/0b0d03f2-f056-4350-bae4-1e3070639e37)
 
 #Mobile
 ![Screenshot 2023-10-17 at 12 28 14 PM](https://github.com/hashmi7917/loopstudios-landing-page/assets/38833326/78273c49-dd2f-4908-88b5-c35a60dab7e3)
