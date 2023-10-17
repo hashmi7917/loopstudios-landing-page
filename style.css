@@ -50,11 +50,12 @@ body {
 
 header {
   width: 100%;
+  background-size: cover;
   background-blend-mode: multiply;
   background-image: url(/images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
-  padding-bottom: 12rem;
   background-color: #8d07a1;
+  padding-bottom: 12rem;
 }
 
 nav {
